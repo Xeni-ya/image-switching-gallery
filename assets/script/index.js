@@ -6,6 +6,5 @@ showMessage();
 const image = document.getElementById('elem-img');
 console.log(image);
 
-function addImage() {
-  image.src = './assets/img/zoe-gayah-jonker-G7kUPmzi80E.jpg';
-}
+window.nextImage = () => image.src = './assets/img/zoe-gayah-jonker-G7kUPmzi80E.jpg';
+window.previousImage = () => image.src = './assets/img/zoe-gayah-jonker-13ky5Ycf0ts.jpg';

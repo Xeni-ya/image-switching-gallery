@@ -7,12 +7,21 @@
   <title>Галерея переключения изображений</title>
 </head>
 <body>
-  <div id="elem">
-    <h1>Cats</h1>
-    <img src="./assets/img/zoe-gayah-jonker-13ky5Ycf0ts.jpg" alt="fluffy cat" id="elem-img" class="elem-img__cat">
+  <div id="container">
+    <h1 class="container__title">
+      <span>Cats</span>
+    </h1>
+    <img src="./assets/img/zoe-gayah-jonker-13ky5Ycf0ts.jpg" alt="fluffy cat" id="elem-img" class="container__img">
   </div>
-  <button class="previous__btn">previous</button>
-  <button onclick="addImage()" class="next__btn">next</button>
+  <div class="control">
+    <button onclick="previousImage()" class="btn">
+      previous
+    </button>
+    <button onclick="nextImage()" class="btn">
+      next
+    </button>
+  </div>
+  
   <script src="./assets/script/index.js"></script>
 </body>
 </html>

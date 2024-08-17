@@ -1,9 +1,41 @@
-.elem-img__cat {
+body {
+  background: url("../img/background80.png") center;
+}
+
+.container__title{
+  text-align: center;
+  color: #cc8c4d;
+  font-size: 50px;
+}
+
+.container__img {
   width: 100%;
   width: 364px;
   height: 547px;
+  object-fit: contain;
+  display: block; 
+  margin: 0 auto;
 }
-.previous__btn {
+
+.control {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 60px;
 }
-.next__btn {
+
+.btn {
+  border-radius: 4px;
+  border-color:#cc8c4d;
+  color: #cc8c4d;
+  font-size: 20px;
+  padding: 15px;
+  width: 150px;
+  box-shadow: 0 10px 20px -12px rgba(0, 0, 0,.7);
+}
+
+.btn:hover {
+  border: none;
+  background-color: #cc8c4d;
+  color: #ffffff;
 }
