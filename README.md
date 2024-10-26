@@ -5,7 +5,7 @@
 
 Пример реализации:
 <img
-    src="./assets/img/Скриншот 26-10-2024 173209"
+    src="./assets/img/Скриншот 26-10-2024 173209.png"
     sizes="
       (max-width: 320px) 280px,
       (max-width: 480px) 440px,
